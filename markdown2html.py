@@ -13,6 +13,8 @@ import os
 
 if __name__ == "__main__":
     # Check if the correct number of arguments is provided
+    markdown_file = "README.md"
+    output_file = "README.html"
     if len(sys.argv) < 3:
         print("Usage: ./markdown2html.py <markdown_file> <output_file>", file=sys.stderr)
         sys.exit(1)
